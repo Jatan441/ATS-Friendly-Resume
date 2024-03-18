@@ -1,0 +1,75 @@
+.accordion {
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-title {
+    flex-grow: 1;
+    text-align: left;
+    font-family: "DM Sans";
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .accordion-icon {
+    font-size: 18px;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    text-align: left;
+    color: #667085;
+  }
+  
+  @media (max-width: 767px) {
+    .accordion {
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+  
+    .accordion-header {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      cursor: pointer;
+    }
+  
+    .accordion-title {
+      flex-grow: 1;
+      text-align: left;
+      font-family: "DM Sans";
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.2rem;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  
+    .accordion-icon {
+      font-size: 1.2rem;
+    }
+  
+    .accordion-content {
+      padding: .5rem;
+      text-align: left;
+      color: #667085;
+      font-family: "DM Sans";
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  }
+  
+  @media (min-width: 992px) {
+  }
